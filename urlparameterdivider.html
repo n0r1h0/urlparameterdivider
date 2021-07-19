@@ -90,13 +90,13 @@
             if (!ar_uri[1]) {
                 param = ar_uri[0];
             } else {
-                $("table").append(`<tr><td>URL</td><td>${ar_uri[0]}</td><td>${decodeURI(ar_uri[0])}</td></tr>`);
+                $("table").append(`<tr><td>URL</td><td>${ar_uri[0]}</td><td>${decodeURIComponent(ar_uri[0])}</td></tr>`);
                 param = ar_uri[1];
             }
             param.split('&').forEach(function (val) {
                 let ar_par = val.split('=');
                 $("table").append(
-                    `<tr><td>${ar_par[0]}</td><td>${ar_par[1] || ''}</td><td>${decodeURI(ar_par[1] || '')}</td></tr>`
+                    `<tr><td>${ar_par[0]}</td><td>${ar_par[1] || ''}</td><td>${decodeURIComponent(ar_par[1] || '')}</td></tr>`
                     );
             });
         })
