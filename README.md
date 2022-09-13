@@ -11,9 +11,9 @@ URLパラメータを分割してくれるJSをweb上に置きたかったので
 
 同じことができるwebサービスはたくさんありますが、情報がどう処理されているかわからないですし、トラッキング等々されているのも微妙な気持ちになったので、作りました。
 
-同じものをHerokuに上げています。
-
-https://urlparameterdivider.herokuapp.com/
+~~同じものをHerokuに上げています。~~
+~~https://urlparameterdivider.herokuapp.com/~~
+Heroku無料枠廃止に伴い、停止しました。
 
 ## License
 このプロジェクトはThe Unlicenseです。
